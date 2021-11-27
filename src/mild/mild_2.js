@@ -6,7 +6,12 @@
  * returns: { type: 'number', value: 4 }
  */
 export function identifyVariable(variable) {
-
+   let array; 
+   if ((variable == true) || (variable == false)) {
+      array[0] = boolean; 
+      array[1] = variable; 
+      return array; 
+   } 
 }
 
 
@@ -44,7 +49,13 @@ export function identifyArray(array) {
  obj now does not contain the `password` field
  */
 export function removeKey(object, key) {
-
+   let i; 
+   let array = object.keyList; 
+   for (i = 0; i < array.length; ++i) {
+      if (key == array[i]) {
+         object.d
+      }
+   }
 }
 
 /**
